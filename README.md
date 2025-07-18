@@ -1,11 +1,10 @@
-						Welcome to the Scanner PLC README file!    
+					Welcome to the Scanner PLC README file!    
 
 Scanner PLC v1.0
 =============
 
 Scanner simples para detectar e coletar informações básicas de CPUs de PLC Siemens S7 em uma rede, testando diferentes racks e slots.
-
-Compatível com qualquer distro Linux.
+<whoami.a51@protonmail.com>
 
 ![descrição](/scanner_plc.png)  
 
