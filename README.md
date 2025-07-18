@@ -10,29 +10,44 @@ Este script em Python utiliza a biblioteca [snap7](https://github.com/gijzelaerr
 
 ---
 
-## Como usar
+						Welcome to the Henkill README file!    
 
-1. Instale a biblioteca snap7, se ainda não tiver:
+Scanner PLC v1.0
+=============
 
-```bash
-pip install python-snap7
-```
+Scanner simples para detectar e coletar informações básicas de CPUs de PLC Siemens S7 em uma rede, testando diferentes racks e slots.
 
-2. Configure o IP do PLC alvo no arquivo `scanner_plc.py`:
+Compatível com qualquer distro Linux.
 
-```python
-ip = 'xx.xxx.xxx.xxx'  # Substitua pelo IP do PLC que deseja escanear
-```
+![descrição](/plc.png)  
 
-3. Execute o script:
+Instalação
+-----------
 
-```bash
-python scanner_plc.py
-```
+Atualize sua distro:
+ 
+    $ sudo pacman -Syyu
 
----
+Baixe o repositório e crie um ambiente virtual:
 
-## O que o script faz?
+    $ git clone https://github.com/whoami-a51/scanner_plc.git
+    $ python3 -m venv venv
+    $ source venv/bin/activate
+  
+Uso:
+
+    $ cd scanner_plc/
+    $ python3 scanner_plc.py
+
+Desinstalação
+--------------
+
+    $ deactivate
+    $ cd .. && sudo rm -rf scanner_plc venv 
+
+
+Como ele funciona
+-----------
 
 - Varre racks de 0 a 5 e slots de 0 a 5
 - Tenta se conectar a cada combinação no PLC no IP especificado
@@ -42,8 +57,6 @@ python scanner_plc.py
   - Nome do sistema (AS Name)
   - Copyright
 - Exibe mensagens indicando sucesso, falha ou erros na conexão
-
----
 
 ## Exemplo de saída
 
@@ -65,12 +78,6 @@ Informações do CPU:
 - Python 3.x
 - Biblioteca `python-snap7`
 
----
-
-## Contato
-
-Quem fez: whoami-a51  
-Email: whoami.a51@protonmail.com
 
 ---
 
@@ -79,5 +86,3 @@ Email: whoami.a51@protonmail.com
 Use este script apenas em redes e dispositivos que você tem autorização para acessar.
 
 ---
-
-Já é, qualquer coisa só chamar! Não fode.
