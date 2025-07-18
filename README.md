@@ -29,7 +29,7 @@ Remoção se preferir
 --------------
 
     $ deactivate
-    $ cd .. && sudo rm -rf scanner_plc venv 
+    $ cd .. && sudo rm -rf scanner_plc/ venv/
 
 
 Como ele funciona
