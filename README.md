@@ -7,7 +7,7 @@ Scanner simples para detectar e coletar informações básicas de CPUs de PLC Si
 
 Compatível com qualquer distro Linux.
 
-![descrição](/plc.png)  
+![descrição](/scanner_plc.png)  
 
 Instalação
 -----------
