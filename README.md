@@ -4,7 +4,7 @@ Scanner PLC v1.0
 =============
 
 Scanner simples para detectar e coletar informações básicas de CPUs de PLC Siemens S7 em uma rede, testando diferentes racks e slots.
-<whoami.a51@protonmail.com>
+< whoami.a51@protonmail.com >
 
 ![descrição](/scanner_plc.png)  
 
@@ -26,7 +26,7 @@ Uso:
     $ cd scanner_plc/
     $ python3 scanner_plc.py
 
-Desinstalação
+Remoção se preferir
 --------------
 
     $ deactivate
