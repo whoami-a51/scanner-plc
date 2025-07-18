@@ -1,16 +1,4 @@
-# PLC Scanner - snap7
-
-Scanner simples para detectar e coletar informações básicas de CPUs de PLC Siemens S7 em uma rede, testando diferentes racks e slots.
-
----
-
-## Sobre
-
-Este script em Python utiliza a biblioteca [snap7](https://github.com/gijzelaerr/python-snap7) para se conectar a PLCs Siemens S7, tentando várias combinações de rack e slot para identificar dispositivos ativos e obter informações do CPU.
-
----
-
-						Welcome to the Henkill README file!    
+						Welcome to the Scanner PLC README file!    
 
 Scanner PLC v1.0
 =============
