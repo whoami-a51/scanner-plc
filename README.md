@@ -3,8 +3,7 @@
 Scanner PLC v1.0
 =============
 
-Scanner simples para detectar e coletar informações básicas de CPUs de PLC Siemens S7 em uma rede, testando diferentes racks e slots.
-< whoami.a51@protonmail.com >
+Scanner para detectar e coletar informações básicas de CPUs de PLC Siemens S7 em uma rede, testando diferentes racks e slots.
 
 ![descrição](/scanner_plc.png)  
 
