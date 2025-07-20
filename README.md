@@ -56,6 +56,7 @@ Informações do CPU:
 [FAIL] Não conectado rack=0, slot=3
 [ERRO] rack=1, slot=0: Connection timed out
 ```
+![descrição](plc.png)  
 
 ---
 
